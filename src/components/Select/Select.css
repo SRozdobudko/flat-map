@@ -1,0 +1,53 @@
+.root {
+  height: 32px;
+  position: relative;
+}
+
+.select {
+  display: none;
+}
+
+.button {
+  background: white;
+  border: 1px solid #e1e1e1;
+  line-height: 34px;
+  outline: none;
+  padding: 7px 18px 8px 10px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 1px;
+}
+
+.button > span:after {
+  content: '\25BE';
+  color: #666;
+  position: absolute;
+  right: 8px;
+}
+
+.menu {
+  margin: 0;
+  background: white;
+  position: absolute;
+  top: 36px;
+  left: 1px;
+  list-style-type: none;
+  padding: 0;
+  box-shadow: 0 1px 3px #bbb;
+  z-index: 10;
+}
+
+.menu li {
+  line-height: 36px;
+  padding: 0 10px;
+  white-space: nowrap;
+}
+
+.menu li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+.menu li input[type="checkbox"] {
+  height: auto;
+}

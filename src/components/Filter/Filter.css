@@ -1,0 +1,74 @@
+.root {
+  font-size: 14px;
+  color: #51525f;
+}
+
+.root form {
+  padding: 20px 50px;
+}
+
+.top input {
+  padding: 0 20px;
+}
+
+.root input[type="button"] {
+  background: #fa9d00;
+  height: 34px;
+  color: white;
+  padding: 0 24px;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+}
+
+.root label {
+  font-size: 14px;
+  margin-right: 12px;
+}
+
+.top {
+  display: flex;
+}
+
+.top > div {
+  margin-right: 3px;
+}
+
+.top input {
+  flex-grow: 1;
+}
+
+
+.checkboxSet {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.detailedSearchButton {
+  float: right;
+  background: none;
+  border: none;
+  line-height: 14px;
+}
+
+.detailedSearchButton a {
+  text-decoration: none;
+  color: #51525f;
+}
+
+.detailedSearchButton a:hover {
+  text-decoration: underline;
+}
+
+.detailedSearchRow {
+  color: #666;
+  margin-top: 10px;
+  border-top: 1px solid #ddd;
+  height: 40px;
+  line-height: 50px;
+}
+
+.bottom {
+  display: none;
+  padding-top: 15px;
+}
+
